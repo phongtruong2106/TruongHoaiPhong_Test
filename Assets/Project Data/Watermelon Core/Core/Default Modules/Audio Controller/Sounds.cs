@@ -7,7 +7,6 @@ namespace Watermelon
 	{
 		public AudioClip animalPickUpSound;
 		public AudioClip itemPickUpSound;
-		public AudioClip animalPlaceSound;
 		public AudioClip animalCureSound;
 		public AudioClip tableOpenSound;
 		public AudioClip locationOpenSound;
