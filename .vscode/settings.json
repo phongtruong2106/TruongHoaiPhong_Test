@@ -51,5 +51,8 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "My project.sln"
+    "dotnet.defaultSolution": "My project.sln",
+    "conventionalCommits.scopes": [
+        "k"
+    ]
 }
