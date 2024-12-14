@@ -261,7 +261,7 @@ namespace Watermelon.Store
         {
             UIController.HidePage<UIStorePage>(() =>
             {
-            //    UIController.ShowPage<UIGame>();
+                UIController.ShowPage<UIGame>();
             });
         }
 

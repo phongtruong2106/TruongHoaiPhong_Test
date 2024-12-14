@@ -1,4 +1,4 @@
-#pragma warning disable 0649 
+﻿#pragma warning disable 0649 
 
 using UnityEngine;
 using UnityEngine.UI;
@@ -48,7 +48,7 @@ namespace Watermelon
             }
 
             // Play button sound
-            //AudioController.PlaySound(AudioController.Sounds.buttonSound);
+            AudioController.PlaySound(AudioController.Sounds.buttonSound);
         }
     }
 }

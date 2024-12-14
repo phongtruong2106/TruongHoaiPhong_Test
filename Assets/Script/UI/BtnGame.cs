@@ -10,11 +10,17 @@ public class BtnGame : NewMonoBehaviour
     public TMP_Text _textMeshPro => textMeshPro;
     [SerializeField] protected SO_IndexUp sO_IndexUp;
     [SerializeField] protected SO_INDEX sO_INDEX;
+    protected bool isLoad;
     protected override void LoadComponents()
     {
         base.LoadComponents();
         this.LoadButton();
         this.LoadTMP();
+    }
+    protected override void Start()
+    {
+        base.Start();
+        this.isLoad = false;
     }
 
     private void LoadButton()

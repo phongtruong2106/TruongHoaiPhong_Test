@@ -22,8 +22,8 @@ namespace Watermelon
         public static Canvas MainCanvas => mainCanvas;
         public static CanvasScaler CanvasScaler { get; private set; }
 
-        //private static UIGame gamePage;
-       // public static UIGame GamePage => gamePage;
+        private static UIGame gamePage;
+        public static UIGame GamePage => gamePage;
 
         private static Camera mainCamera;
 
@@ -53,7 +53,7 @@ namespace Watermelon
             }
 
             // Cache game page
-           // gamePage = (UIGame)pagesLink[typeof(UIGame)];
+            gamePage = (UIGame)pagesLink[typeof(UIGame)];
         }
 
         public void InitialisePages()
@@ -140,7 +140,7 @@ namespace Watermelon
 
         public static void SetGameUIInputState(bool state)
         {
-          //  gamePage.GraphicRaycaster.enabled = state;
+            gamePage.GraphicRaycaster.enabled = state;
         }
 
         private static bool GetTabletStage()

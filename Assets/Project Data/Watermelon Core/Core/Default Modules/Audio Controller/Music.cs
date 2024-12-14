@@ -5,5 +5,6 @@ namespace Watermelon
 	[System.Serializable]
 	public class Music
 	{
+		public AudioClip gameMusic;
 	}
 }

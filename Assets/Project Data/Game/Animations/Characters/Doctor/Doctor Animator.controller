@@ -11,14 +11,14 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 7548767218312279912}
-    m_Position: {x: 40, y: 300, z: 0}
+    m_Position: {x: 30, y: 300, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
-  m_EntryPosition: {x: -200, y: 310, z: 0}
+  m_EntryPosition: {x: -200, y: 300, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 7548767218312279912}
@@ -99,7 +99,8 @@ BlendTree:
   m_Name: Blend Tree
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 8566182c8ae31c147b1bd7d5d041ea0b, type: 2}
+    m_Motion: {fileID: 7628542041929611259, guid: ef5114621e567f54d9e3ffef4d32dc50,
+      type: 3}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -107,7 +108,8 @@ BlendTree:
     m_DirectBlendParameter: Movement Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: bd298c622c4117c49919d86866194796, type: 2}
+    m_Motion: {fileID: -1441668641300686297, guid: 64670b72c0b77fc4783e60c0676ef1b5,
+      type: 3}
     m_Threshold: 0.1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 0.5
@@ -115,7 +117,8 @@ BlendTree:
     m_DirectBlendParameter: Movement Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: bd298c622c4117c49919d86866194796, type: 2}
+    m_Motion: {fileID: -1441668641300686297, guid: 64670b72c0b77fc4783e60c0676ef1b5,
+      type: 3}
     m_Threshold: 0.5
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -123,10 +126,11 @@ BlendTree:
     m_DirectBlendParameter: Movement Multiplier
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 1f623956a6a91ec4e9b0b11143daad6b, type: 2}
+    m_Motion: {fileID: -6083306102326612221, guid: f1a12b43292adef4b9f80d43fb629b58,
+      type: 3}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
-    m_TimeScale: 1.5
+    m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Movement Speed
     m_Mirror: 0

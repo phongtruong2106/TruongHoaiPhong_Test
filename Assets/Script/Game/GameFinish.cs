@@ -23,6 +23,10 @@ public class GameFinish : NewMonoBehaviour
         this.PointEndGame();
         this.BtnGetPoint();
     }
+    protected void FixedUpdate()
+    {
+        
+    }
     private void LoadGameManager()
     {
         if(this.gameManager != null) return;

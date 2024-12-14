@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Watermelon
 {
@@ -18,7 +18,7 @@ namespace Watermelon
             IAPManager.RestorePurchases();
 
             // Play button sound
-         //   AudioController.PlaySound(AudioController.Sounds.buttonSound);
+            AudioController.PlaySound(AudioController.Sounds.buttonSound);
         }
     }
 }
