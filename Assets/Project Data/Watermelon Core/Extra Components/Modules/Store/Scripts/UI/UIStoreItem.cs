@@ -124,18 +124,18 @@ namespace Watermelon.Store
 
         public void OnButtonClicked()
         {
-            AudioController.PlaySound(AudioController.Sounds.buttonSound);
+            // AudioController.PlaySound(AudioController.Sounds.buttonSound);
 
-            bounce.Bounce();
+            // bounce.Bounce();
 
-            if (Data.IsUnlocked)
-            {
-                StoreController.SelectProduct(Data);
-            }
-            else
-            {
-                StoreController.BuyProduct(Data);
-            }
+            // if (Data.IsUnlocked)
+            // {
+            //     StoreController.SelectProduct(Data);
+            // }
+            // else
+            // {
+            //     StoreController.BuyProduct(Data);
+            // }
         }
     }
 }
