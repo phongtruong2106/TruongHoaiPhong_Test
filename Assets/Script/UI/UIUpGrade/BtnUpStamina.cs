@@ -7,7 +7,16 @@ public class BtnUpStamina : BtnGame
     {
         base.Start();
         UpdateButtonText();
-        LoadSpeed();
+
+    }
+    
+    protected void Update()
+    {
+        if(!isLoad)
+        {      
+            LoadSpeed();
+            this.isLoad = true;
+        }
     }
     public virtual void UpGrade()
     {

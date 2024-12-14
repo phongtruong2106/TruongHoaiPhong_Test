@@ -6,8 +6,6 @@ TagManager:
   tags:
   - Nurse
   - Visitor
-  - Animal
-  - Tsunami
   layers:
   - Default
   - TransparentFX
@@ -17,7 +15,7 @@ TagManager:
   - UI
   - Land
   - Interactable
-  - Player
+  - 
   - 
   - 
   - 

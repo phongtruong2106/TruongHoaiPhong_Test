@@ -2,12 +2,22 @@ using UnityEngine;
 
 public class BtnUpMoney : BtnGame
 {
+
     protected override void Start()
     {
         base.Start();
-        UpdateButtonText();
         this.LoadMoney();
-        this.LoadMoneya();
+        
+        UpdateButtonText();
+    }
+    protected void Update()
+    {
+        if(!isLoad)
+        {
+            this.LoadMoney();
+            this.LoadMoneya();
+            this.isLoad = true;
+        }
     }
     public virtual void UpGrade()
     {

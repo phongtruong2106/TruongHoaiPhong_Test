@@ -12,4 +12,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a0258cb7d17964493174ceaf8d2867, type: 3}
   m_Name: Project Init Settings
   m_EditorClassIdentifier: 
-  initModules: []
+  initModules:
+  - {fileID: 1541307628909891008}
+  - {fileID: 4843368711887817407}
+  - {fileID: 779070871751298899}
+--- !u!114 &779070871751298899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8e4e34b37285094ea49b9c1301c78e6, type: 3}
+  m_Name: Watermelon.IAPManagerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: IAP Manager
+  settings: {fileID: 11400000, guid: f9e742c6644852f4397ba85c9f7efefe, type: 2}
+  canvas: {fileID: 4428939727153499309, guid: 9ccb3bd803809cc449b332921a7edf6f, type: 3}
+--- !u!114 &1541307628909891008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e8aee3fa033774784c3dd89d1fc896, type: 3}
+  m_Name: Watermelon.TweenInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Tween
+  easingSettings: {fileID: 11400000, guid: ce64a53ce14f70b43a7d42e03f9740c6, type: 2}
+  tweensUpdateCount: 100
+  tweensFixedUpdateCount: 0
+  tweensLateUpdateCount: 0
+  enableSystemLogs: 0
+--- !u!114 &4843368711887817407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27433fc73d0e094491cb89c195d0cf8, type: 3}
+  m_Name: Watermelon.AudioControllerInitModule
+  m_EditorClassIdentifier: 
+  moduleName: Audio Controller
+  audioSettings: {fileID: 0}
+  playRandomMusic: 0
