@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77739969554f88640b0bcd21248b9cab, type: 3}
+  m_Name: New SO_SPAWNPREFAB 1
+  m_EditorClassIdentifier: 
+  roadPrefab: {fileID: 587136616467319165, guid: 4abf12b2a5200ac47af5500bbcc17448,
+    type: 3}
+  road: {fileID: 587136616467319165, guid: 6538c1f315fbe97488dac3fcdace60ae, type: 3}
+  playerPrefab: {fileID: 1697739096018267998, guid: b649aafc13a10394eaca26983417fdb6,
+    type: 3}
+  SandPrefab: {fileID: 587136616467319165, guid: ed2f000375810e8469157b39c643a80d,
+    type: 3}
+  SandDecorPrefab: {fileID: 587136616467319165, guid: a271c74dca80f624b80bcd224a86b1ad,
+    type: 3}
+  BeachDecorPrefab: {fileID: 919145068518531599, guid: c9592c09d289ded418c83d108e2f444c,
+    type: 3}
+  BeachPrefab: {fileID: 919145068518531599, guid: 8ed59c62474fa834ea83022fa2184e01,
+    type: 3}
+  TsunamiPrefab: {fileID: 0}
+  EndPoint: {fileID: 0}
+  road1Length: 400
+  roadWidth: 168
+  road2Length: 1000

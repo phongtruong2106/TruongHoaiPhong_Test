@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ef321d587d04ac4aa94ec3422ecf452, type: 3}
+  m_Name: New SO_MEOW
+  m_EditorClassIdentifier: 
+  catPrefabs:
+  - {fileID: 3723217540529644781, guid: ccf31b2bc9d096b46823a42fb6224738, type: 3}
+  - {fileID: 4940788795420556183, guid: 9abe1246f5cacac4a9105721167e9c6d, type: 3}
+  - {fileID: 6824056633908700397, guid: 4c28a13140c3e5f4cb246998b15376ac, type: 3}
+  - {fileID: 7329176190649520718, guid: 32c605519ae78a842a849a173c9c6e6d, type: 3}
+  - {fileID: 2921632596715241418, guid: 7dae18010abbceb40997c03ad56a465d, type: 3}
+  spawnPositions:
+  - {x: 30, y: 1.7, z: 90}
+  - {x: -20.7, y: 1.7, z: 50}
+  - {x: 24.6, y: 1.7, z: 240}
+  - {x: -19.9, y: 1.7, z: 160}
+  - {x: -10, y: 1.7, z: 290}
+  - {x: -18, y: 1.7, z: 370}
